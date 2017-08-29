@@ -67,7 +67,7 @@ class DemoForm extends Component {
             this.validate()
         );
 
-        if(this.staet.formValid) {
+        if(this.state.formValid) {
             // sign up code here
         }
 
