@@ -1,0 +1,1042 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DemoForm should call fieldChange when input value changed 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="demoForm"
+>
+    <h2>
+        Sign up
+    </h2>
+    <div
+        className="form-group "
+    >
+        <label
+            htmlFor="email"
+        >
+            Email address
+        </label>
+        <input
+            className="form-control"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="email"
+            value=""
+        />
+        <p
+            className="hidden"
+        >
+             is invalid
+        </p>
+    </div>
+    <div
+        className="form-group "
+    >
+        <label
+            htmlFor="password"
+        >
+            Password
+        </label>
+        <input
+            className="form-control"
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+        />
+        <p
+            className="hidden"
+        >
+             is too short
+        </p>
+    </div>
+    <button
+        className="btn btn-primary"
+        onClick={[Function]}
+    >
+        Sign up
+    </button>
+</div>,
+  "nodes": Array [
+    <div
+      className="demoForm"
+>
+      <h2>
+            Sign up
+      </h2>
+      <div
+            className="form-group "
+      >
+            <label
+                  htmlFor="email"
+            >
+                  Email address
+            </label>
+            <input
+                  className="form-control"
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  type="email"
+                  value=""
+            />
+            <p
+                  className="hidden"
+            >
+                   is invalid
+            </p>
+      </div>
+      <div
+            className="form-group "
+      >
+            <label
+                  htmlFor="password"
+            >
+                  Password
+            </label>
+            <input
+                  className="form-control"
+                  name="password"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  type="password"
+                  value=""
+            />
+            <p
+                  className="hidden"
+            >
+                   is too short
+            </p>
+      </div>
+      <button
+            className="btn btn-primary"
+            onClick={[Function]}
+      >
+            Sign up
+      </button>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <DemoForm
+        fieldChange={[Function]}
+        formChange={[Function]}
+        state={
+                Object {
+                        "email": "",
+                        "emailValid": false,
+                        "formErrors": Object {
+                          "email": " is invalid",
+                          "password": " is too short",
+                        },
+                        "formValid": false,
+                        "password": "",
+                        "passwordValid": false,
+                        "touched": Object {
+                          "email": false,
+                          "password": false,
+                        },
+                      }
+        }
+/>,
+      "_debugID": 13,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": DemoForm {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "onSignUp": [Function],
+        "props": Object {
+          "fieldChange": [Function],
+          "formChange": [Function],
+          "state": Object {
+            "email": "",
+            "emailValid": false,
+            "formErrors": Object {
+              "email": " is invalid",
+              "password": " is too short",
+            },
+            "formValid": false,
+            "password": "",
+            "passwordValid": false,
+            "touched": Object {
+              "email": false,
+              "password": false,
+            },
+          },
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="demoForm"
+>
+          <h2>
+                    Sign up
+          </h2>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="email"
+                    >
+                              Email address
+                    </label>
+                    <input
+                              className="form-control"
+                              name="email"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="email"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is invalid
+                    </p>
+          </div>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="password"
+                    >
+                              Password
+                    </label>
+                    <input
+                              className="form-control"
+                              name="password"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="password"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is too short
+                    </p>
+          </div>
+          <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+          >
+                    Sign up
+          </button>
+</div>,
+        "_debugID": 14,
+        "_renderedOutput": <div
+          className="demoForm"
+>
+          <h2>
+                    Sign up
+          </h2>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="email"
+                    >
+                              Email address
+                    </label>
+                    <input
+                              className="form-control"
+                              name="email"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="email"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is invalid
+                    </p>
+          </div>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="password"
+                    >
+                              Password
+                    </label>
+                    <input
+                              className="form-control"
+                              name="password"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="password"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is too short
+                    </p>
+          </div>
+          <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+          >
+                    Sign up
+          </button>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <DemoForm
+    fieldChange={[Function]}
+    formChange={[Function]}
+    state={
+        Object {
+            "email": "",
+            "emailValid": false,
+            "formErrors": Object {
+              "email": " is invalid",
+              "password": " is too short",
+            },
+            "formValid": false,
+            "password": "",
+            "passwordValid": false,
+            "touched": Object {
+              "email": false,
+              "password": false,
+            },
+          }
+    }
+/>,
+}
+`;
+
+exports[`DemoForm should call formChange when buuton clicked 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="demoForm"
+>
+    <h2>
+        Sign up
+    </h2>
+    <div
+        className="form-group "
+    >
+        <label
+            htmlFor="email"
+        >
+            Email address
+        </label>
+        <input
+            className="form-control"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="email"
+            value=""
+        />
+        <p
+            className="hidden"
+        >
+             is invalid
+        </p>
+    </div>
+    <div
+        className="form-group "
+    >
+        <label
+            htmlFor="password"
+        >
+            Password
+        </label>
+        <input
+            className="form-control"
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+        />
+        <p
+            className="hidden"
+        >
+             is too short
+        </p>
+    </div>
+    <button
+        className="btn btn-primary"
+        onClick={[Function]}
+    >
+        Sign up
+    </button>
+</div>,
+  "nodes": Array [
+    <div
+      className="demoForm"
+>
+      <h2>
+            Sign up
+      </h2>
+      <div
+            className="form-group "
+      >
+            <label
+                  htmlFor="email"
+            >
+                  Email address
+            </label>
+            <input
+                  className="form-control"
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  type="email"
+                  value=""
+            />
+            <p
+                  className="hidden"
+            >
+                   is invalid
+            </p>
+      </div>
+      <div
+            className="form-group "
+      >
+            <label
+                  htmlFor="password"
+            >
+                  Password
+            </label>
+            <input
+                  className="form-control"
+                  name="password"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  type="password"
+                  value=""
+            />
+            <p
+                  className="hidden"
+            >
+                   is too short
+            </p>
+      </div>
+      <button
+            className="btn btn-primary"
+            onClick={[Function]}
+      >
+            Sign up
+      </button>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <DemoForm
+        fieldChange={[Function]}
+        formChange={[Function]}
+        state={
+                Object {
+                        "email": "",
+                        "emailValid": false,
+                        "formErrors": Object {
+                          "email": " is invalid",
+                          "password": " is too short",
+                        },
+                        "formValid": false,
+                        "password": "",
+                        "passwordValid": false,
+                        "touched": Object {
+                          "email": false,
+                          "password": false,
+                        },
+                      }
+        }
+/>,
+      "_debugID": 17,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": DemoForm {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "onSignUp": [Function],
+        "props": Object {
+          "fieldChange": [Function],
+          "formChange": [Function],
+          "state": Object {
+            "email": "",
+            "emailValid": false,
+            "formErrors": Object {
+              "email": " is invalid",
+              "password": " is too short",
+            },
+            "formValid": false,
+            "password": "",
+            "passwordValid": false,
+            "touched": Object {
+              "email": false,
+              "password": false,
+            },
+          },
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 3,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="demoForm"
+>
+          <h2>
+                    Sign up
+          </h2>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="email"
+                    >
+                              Email address
+                    </label>
+                    <input
+                              className="form-control"
+                              name="email"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="email"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is invalid
+                    </p>
+          </div>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="password"
+                    >
+                              Password
+                    </label>
+                    <input
+                              className="form-control"
+                              name="password"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="password"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is too short
+                    </p>
+          </div>
+          <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+          >
+                    Sign up
+          </button>
+</div>,
+        "_debugID": 18,
+        "_renderedOutput": <div
+          className="demoForm"
+>
+          <h2>
+                    Sign up
+          </h2>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="email"
+                    >
+                              Email address
+                    </label>
+                    <input
+                              className="form-control"
+                              name="email"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="email"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is invalid
+                    </p>
+          </div>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="password"
+                    >
+                              Password
+                    </label>
+                    <input
+                              className="form-control"
+                              name="password"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="password"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is too short
+                    </p>
+          </div>
+          <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+          >
+                    Sign up
+          </button>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <DemoForm
+    fieldChange={[Function]}
+    formChange={[Function]}
+    state={
+        Object {
+            "email": "",
+            "emailValid": false,
+            "formErrors": Object {
+              "email": " is invalid",
+              "password": " is too short",
+            },
+            "formValid": false,
+            "password": "",
+            "passwordValid": false,
+            "touched": Object {
+              "email": false,
+              "password": false,
+            },
+          }
+    }
+/>,
+}
+`;
+
+exports[`DemoForm should call formChange when entering input 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="demoForm"
+>
+    <h2>
+        Sign up
+    </h2>
+    <div
+        className="form-group "
+    >
+        <label
+            htmlFor="email"
+        >
+            Email address
+        </label>
+        <input
+            className="form-control"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="email"
+            value=""
+        />
+        <p
+            className="hidden"
+        >
+             is invalid
+        </p>
+    </div>
+    <div
+        className="form-group "
+    >
+        <label
+            htmlFor="password"
+        >
+            Password
+        </label>
+        <input
+            className="form-control"
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+        />
+        <p
+            className="hidden"
+        >
+             is too short
+        </p>
+    </div>
+    <button
+        className="btn btn-primary"
+        onClick={[Function]}
+    >
+        Sign up
+    </button>
+</div>,
+  "nodes": Array [
+    <div
+      className="demoForm"
+>
+      <h2>
+            Sign up
+      </h2>
+      <div
+            className="form-group "
+      >
+            <label
+                  htmlFor="email"
+            >
+                  Email address
+            </label>
+            <input
+                  className="form-control"
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  type="email"
+                  value=""
+            />
+            <p
+                  className="hidden"
+            >
+                   is invalid
+            </p>
+      </div>
+      <div
+            className="form-group "
+      >
+            <label
+                  htmlFor="password"
+            >
+                  Password
+            </label>
+            <input
+                  className="form-control"
+                  name="password"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  type="password"
+                  value=""
+            />
+            <p
+                  className="hidden"
+            >
+                   is too short
+            </p>
+      </div>
+      <button
+            className="btn btn-primary"
+            onClick={[Function]}
+      >
+            Sign up
+      </button>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <DemoForm
+        fieldChange={[Function]}
+        formChange={[Function]}
+        state={
+                Object {
+                        "email": "",
+                        "emailValid": false,
+                        "formErrors": Object {
+                          "email": " is invalid",
+                          "password": " is too short",
+                        },
+                        "formValid": false,
+                        "password": "",
+                        "passwordValid": false,
+                        "touched": Object {
+                          "email": false,
+                          "password": false,
+                        },
+                      }
+        }
+/>,
+      "_debugID": 15,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": DemoForm {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "onSignUp": [Function],
+        "props": Object {
+          "fieldChange": [Function],
+          "formChange": [Function],
+          "state": Object {
+            "email": "",
+            "emailValid": false,
+            "formErrors": Object {
+              "email": " is invalid",
+              "password": " is too short",
+            },
+            "formValid": false,
+            "password": "",
+            "passwordValid": false,
+            "touched": Object {
+              "email": false,
+              "password": false,
+            },
+          },
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="demoForm"
+>
+          <h2>
+                    Sign up
+          </h2>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="email"
+                    >
+                              Email address
+                    </label>
+                    <input
+                              className="form-control"
+                              name="email"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="email"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is invalid
+                    </p>
+          </div>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="password"
+                    >
+                              Password
+                    </label>
+                    <input
+                              className="form-control"
+                              name="password"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="password"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is too short
+                    </p>
+          </div>
+          <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+          >
+                    Sign up
+          </button>
+</div>,
+        "_debugID": 16,
+        "_renderedOutput": <div
+          className="demoForm"
+>
+          <h2>
+                    Sign up
+          </h2>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="email"
+                    >
+                              Email address
+                    </label>
+                    <input
+                              className="form-control"
+                              name="email"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="email"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is invalid
+                    </p>
+          </div>
+          <div
+                    className="form-group "
+          >
+                    <label
+                              htmlFor="password"
+                    >
+                              Password
+                    </label>
+                    <input
+                              className="form-control"
+                              name="password"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              type="password"
+                              value=""
+                    />
+                    <p
+                              className="hidden"
+                    >
+                               is too short
+                    </p>
+          </div>
+          <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+          >
+                    Sign up
+          </button>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <DemoForm
+    fieldChange={[Function]}
+    formChange={[Function]}
+    state={
+        Object {
+            "email": "",
+            "emailValid": false,
+            "formErrors": Object {
+              "email": " is invalid",
+              "password": " is too short",
+            },
+            "formValid": false,
+            "password": "",
+            "passwordValid": false,
+            "touched": Object {
+              "email": false,
+              "password": false,
+            },
+          }
+    }
+/>,
+}
+`;

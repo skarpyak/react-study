@@ -5,9 +5,6 @@ const initialState = {
     email: '',
     password: '',
     formErrors: {email: '', password: ''},
-    emailValid: false,
-    passwordValid: false,
-    formValid: false,
     touched: { email: false, password: false }
 }
 

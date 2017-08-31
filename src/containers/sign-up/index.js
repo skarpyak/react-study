@@ -4,6 +4,7 @@ import { bindActionCreators } from 'redux'
 import DemoForm from '../../components/DemoForm/DemoForm';
 import * as store  from './store';
 
+
 const SignUp = props => (
     <div>
         <DemoForm { ...props } />
